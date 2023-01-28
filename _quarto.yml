@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Panduan Penuh Bahasa Jepun"
+  author: "Luqman Hadi"
+  date: "1/29/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: vapor
+  pdf:
+    documentclass: scrreprt
+
+
+
